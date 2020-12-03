@@ -1,8 +1,7 @@
 /*variables*/
 $primary-color:black;
-$secondary-color:#66b933;
+$secondary-color:#24b04f;
 $tertiary-color:#1C1C21;
-
 $backgrounds:playstation,xbox;
 
 
@@ -41,6 +40,7 @@ body{
     font-family: 'Dosis', sans-serif;
     font-size: 125%;
     color: white;
+    margin: 0;
 }
 
 /*header*/
@@ -49,8 +49,7 @@ header{
     display: flex;
     align-items: center;
     height: 5vw;
-    width: 100%;
-}
+    width: 100%;}
 h1{
     text-transform: uppercase;
     color: $secondary-color;
@@ -556,14 +555,7 @@ form{
     height: 30px;
     width: 150px;
 }
-input{
-    background-color: grey;
-    margin-bottom: 20px;
-    display: block;
-}
-label{
-    display: block;
-}
+
 #check{
     display: inline;
     margin: 0;
@@ -614,3 +606,4 @@ a:hover{
     text-decoration: none;
     color: none;
 }
+@import "login";
